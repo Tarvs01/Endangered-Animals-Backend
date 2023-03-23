@@ -11,6 +11,7 @@ app.get("/data/animals", (req, res) => {
     const { name, img } = animal;
     return { name, img };
   });
+  newAnimals = JSON.stringify(newAnimals);
   res.status(200).json(newAnimals);
 });
 
@@ -20,6 +21,7 @@ app.get("/data/animals/:id", (req, res) => {
   animal = animals.find((animal) => animal.id === Number(id));
 
   if (animal) {
+    animal = JSON.stringify(animal);
     return res.status(200).json(animal);
   } else {
     return res
@@ -29,6 +31,7 @@ app.get("/data/animals/:id", (req, res) => {
 });
 
 app.get("/data/partners", (req, res) => {
+  partners = JSON.stringify(partners);
   res.status(200).json(partners);
 });
 
