@@ -1,4 +1,4 @@
-const animals = [
+export const animals = [
   {
     id: 1,
     name: "Sunda Tiger",
@@ -16,6 +16,7 @@ const animals = [
     lifeSpan: "15 to 18 years",
     habitat:
       "Tropical broadleaf evergreen forests, freshwater swamp forests and peat swamps",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/9OiuQPYN6E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 2,
@@ -34,6 +35,7 @@ const animals = [
     scientificName: "Danaus plexippus",
     lifeSpan: "6 to 8 months",
     population: "Over 335,000",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/wA0tsGPR8gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 3,
@@ -52,6 +54,7 @@ const animals = [
     length: "30 to 56 inches",
     population: "About 1,409",
     habitat: "Deserts, Forests, Grasslands",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/DHaEDiziGdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 4,
@@ -66,6 +69,7 @@ const animals = [
     length: "43 to 55 inches",
     population: "Around 100 individuals",
     habitat: "Temperate, Broadleaf, and Mixed Forests",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/zOVmH7q9ZP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 5,
@@ -85,6 +89,7 @@ const animals = [
     population: "less than 50,000 individuals",
     habitat: "Oceans",
     donate: "https://seaturtlefoundation.org/donate",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/tR31LroBJU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 6,
@@ -104,6 +109,7 @@ const animals = [
     population: "More than 1,000 individuals",
     habitat: "Mountains",
     donation: "https://www.gorilladoctors.org/donations/",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/9XL9KSohjLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 7,
@@ -122,6 +128,7 @@ const animals = [
     height: "4 to 5 feet when standing",
     population: "About 120,000 total",
     habitat: "Rain forests of Borneo and Sumatra",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/QHU3kJ9OHho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 8,
@@ -140,6 +147,7 @@ const animals = [
     length: "6.5 to 13 feet",
     population: "Fewer than 80",
     habitat: "Dense highland and lowland tropical and sub-tropical forests",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/FcJrQ9pUq5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 9,
@@ -159,6 +167,7 @@ const animals = [
     population: "less than 10,000 individuals",
     habitat: "Temperate forests",
     donate: "https://redpandanetwork.org/Donate",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/FKqMYhjK-pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 10,
@@ -177,6 +186,7 @@ const animals = [
     height: "28 to 35 inches",
     population: "10,000 to 50,000",
     habitat: "Forests",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/EAjrimA3-pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 11,
@@ -195,6 +205,7 @@ const animals = [
     height: "8.2 to 9.8 feet",
     population: "Fewer than 1,500",
     habitat: "Forests",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kDM5qrQF40w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 12,
@@ -213,6 +224,7 @@ const animals = [
     length: "18 to 24 inches",
     population: "Approximately 370 in the wild",
     habitat: "Grasslands",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/pS1tcdDdV8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 13,
@@ -232,6 +244,7 @@ const animals = [
     population: "172,000 to 299,700",
     habitat:
       "Forests (moist and dry), Savannah Woodlands, and Grassland-Forest mosiacs",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/txUuf8JN9TQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 14,
@@ -250,6 +263,7 @@ const animals = [
     length: "1 to 1.4 cm",
     population: "less than 5,000 individuals",
     habitat: "Floral areas",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/bX68lFRDTaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
   {
     id: 15,
@@ -268,7 +282,6 @@ const animals = [
     length: "7.5 feet wingspan",
     population: "about 800 individuals",
     habitat: "Swampy coniferous woods with numerous lakes and ponds",
+    video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/N2C81bXu29I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
 ];
-
-module.exports = animals;
