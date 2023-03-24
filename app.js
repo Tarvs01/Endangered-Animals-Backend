@@ -8,8 +8,8 @@ app.use(cors());
 
 app.get("/data/animals", (req, res) => {
   let newAnimals = animals.map((animal) => {
-    const { name, img } = animal;
-    return { name, img };
+    const { id, name, img } = animal;
+    return { id, name, img };
   });
   res.status(200).json(newAnimals);
 });
