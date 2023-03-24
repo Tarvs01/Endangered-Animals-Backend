@@ -1,4 +1,4 @@
-export const animals = [
+const animals = [
   {
     id: 1,
     name: "Sunda Tiger",
@@ -285,3 +285,5 @@ export const animals = [
     video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/N2C81bXu29I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`,
   },
 ];
+
+module.exports = animals;
